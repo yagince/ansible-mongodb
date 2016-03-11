@@ -3,7 +3,7 @@
 - include_vars: "{{ansible_distribution}}.yml"
 
 - name: Add APT key
-  apt_key: keyserver=keyserver.ubuntu.net id=7F0CEB10
+  apt_key: keyserver=keyserver.ubuntu.com id=EA312927
   when: '"mongodb-org" in mongodb_package'
 
 - name: Add APT repository
