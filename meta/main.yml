@@ -3,8 +3,8 @@
 dependencies: []
 
 galaxy_info:
-  author: klen
-  company: Stouts
+  author: yagince
+  company: xenodata lab., Inc.
   description: Manage MongoDB (MMS)
   license: MIT
   platforms:
